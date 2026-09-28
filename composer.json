@@ -1,0 +1,21 @@
+{
+    "name": "monkeyscloud/monkeyslegion-markdown",
+    "description": "Markdown rendering package for MonKeysLegion framework",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MonkeysLegion\\Markdown\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MonkeysLegion\\Markdown\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
